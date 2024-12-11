@@ -61,7 +61,6 @@ export class User {
 
   @Prop({
     type: Boolean,
-    enum: [true, false],
   })
   isActive: boolean;
 
@@ -72,7 +71,7 @@ export class User {
 
   @Prop({
     type: String,
-    enum: ['mail', 'female'],
+    enum: ['male', 'female'],
   })
   gender: string;
 }
